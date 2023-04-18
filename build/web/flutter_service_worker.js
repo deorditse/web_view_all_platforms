@@ -4,10 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"version.json": "5ea2ecdffaaf363b451f5900a4d70ea6",
-"index.html": "1efdcc145dd99f1b929f8802049f2e01",
-"/": "1efdcc145dd99f1b929f8802049f2e01",
+"index.html": "2b656dc52c63be43462dc1cc9813dd70",
+"/": "2b656dc52c63be43462dc1cc9813dd70",
 "main.dart.js": "7b5ef2b78d0549d25afcb69c91d2b41c",
-"404.html": "0a27a4163254fc8fce870c8cc3a3f94f",
+"flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
 "favicon.png": "a4dfcba513af454e4ca9e8e0f2aa562f",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -24,7 +24,14 @@ const RESOURCES = {"version.json": "5ea2ecdffaaf363b451f5900a4d70ea6",
 "assets/assets/splash_screen/splash_screen.png": "28843783570a28dd3887322e6a9c1f5a",
 "assets/assets/fonts/OTF/SBSansDisplay-Regular.otf": "fdec46d4e9ac3d4a091252f003278ba9",
 "assets/assets/fonts/OTF/SBSansDisplay-Bold.otf": "6a81f616d71e3a4b2356f9f85d7f2687",
-"assets/assets/fonts/OTF/SBSansDisplay-SemiBold.otf": "7281fe6dd7ac86d70afe08983fbf796d"};
+"assets/assets/fonts/OTF/SBSansDisplay-SemiBold.otf": "7281fe6dd7ac86d70afe08983fbf796d",
+"canvaskit/skwasm.js": "3dbd05be6db4a4154ce733ff194dcae7",
+"canvaskit/skwasm.wasm": "f767200511478d7f7052f2b536d82875",
+"canvaskit/chromium/canvaskit.js": "c5ff0f8767a7ea0962b15d1f1832002d",
+"canvaskit/chromium/canvaskit.wasm": "c6b1144d5baffbdd9482ee820dbd7dc9",
+"canvaskit/canvaskit.js": "3e7c7e90ff8e206f4023c12e31b0d058",
+"canvaskit/canvaskit.wasm": "296ba26fdb37b50c239d4ead66144d01",
+"canvaskit/skwasm.worker.js": "23be0fdafa5ddef67734292a576f8fe3"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",

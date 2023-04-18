@@ -1,4 +1,4 @@
-// @dart=2.19
+// @dart=3.0
 // Flutter web bootstrap script for package:web_view_all_platforms/main.dart.
 //
 // Generated file. Do not edit.

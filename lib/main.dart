@@ -4,7 +4,6 @@ import 'package:web_view_all_platforms/ui_layout/styles/app_theme/theme_light.da
 import 'package:web_view_all_platforms/ui_layout/styles/color_styles.dart';
 import 'package:web_view_all_platforms/ui_layout/widgets_for_all_pages/my_bottom_snackbar.dart';
 import 'package:web_view_all_platforms/ui_layout/widgets_for_all_pages/my_circular_progress_indicator.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
