@@ -1,6 +1,6 @@
-import 'package:chat_gpt/ui_layout/styles/const_app.dart';
-import 'package:chat_gpt/ui_layout/widgets_for_all_pages/my_button.dart';
-import 'package:chat_gpt/ui_layout/widgets_for_all_pages/my_container.dart';
+import 'package:web_view_all_platforms/ui_layout/styles/const_app.dart';
+import 'package:web_view_all_platforms/ui_layout/widgets_for_all_pages/my_button.dart';
+import 'package:web_view_all_platforms/ui_layout/widgets_for_all_pages/my_container.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:url_launcher/url_launcher_string.dart';

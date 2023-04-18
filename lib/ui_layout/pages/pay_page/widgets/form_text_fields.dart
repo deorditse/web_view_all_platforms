@@ -1,8 +1,8 @@
-import 'package:chat_gpt/business_layout/blocs/pay_bloc/pay_bloc.dart';
-import 'package:chat_gpt/ui_layout/styles/color_styles.dart';
-import 'package:chat_gpt/ui_layout/styles/text_field_style.dart';
-import 'package:chat_gpt/ui_layout/widgets_for_all_pages/my_bottom_snackbar.dart';
-import 'package:chat_gpt/ui_layout/widgets_for_all_pages/my_button.dart';
+import 'package:web_view_all_platforms/business_layout/blocs/pay_bloc/pay_bloc.dart';
+import 'package:web_view_all_platforms/ui_layout/styles/color_styles.dart';
+import 'package:web_view_all_platforms/ui_layout/styles/text_field_style.dart';
+import 'package:web_view_all_platforms/ui_layout/widgets_for_all_pages/my_bottom_snackbar.dart';
+import 'package:web_view_all_platforms/ui_layout/widgets_for_all_pages/my_button.dart';
 import 'package:clipboard/clipboard.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

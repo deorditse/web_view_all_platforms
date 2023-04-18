@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:chat_gpt/ui_layout/pages/chat_gpt_page/web_view/mock_web_view.dart'
-    if (dart.library.io) 'package:chat_gpt/ui_layout/pages/chat_gpt_page/web_view/non_web_platform_webview.dart' //приложение запущено на mobile
-    if (dart.library.html) 'package:chat_gpt/ui_layout/pages/chat_gpt_page/web_view/web_platform_webview.dart';
+import 'package:web_view_all_platforms/ui_layout/pages/chat_gpt_page/web_view/mock_web_view.dart'
+    if (dart.library.io) 'package:web_view_all_platforms/ui_layout/pages/chat_gpt_page/web_view/non_web_platform_webview.dart' //приложение запущено на mobile
+    if (dart.library.html) 'package:web_view_all_platforms/ui_layout/pages/chat_gpt_page/web_view/web_platform_webview.dart';
 import 'package:get/get.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 

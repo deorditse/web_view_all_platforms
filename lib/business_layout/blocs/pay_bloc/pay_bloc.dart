@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:chat_gpt/business_layout/codes_for_verify.dart';
+import 'package:web_view_all_platforms/business_layout/codes_for_verify.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
@@ -86,8 +86,7 @@ class PayBloc extends Bloc<PayEvent, PayState> {
       } else {
         emit(const PayState.verificationSuccessful());
         Timer.periodic(
-          // const Duration(minutes: 3),
-          const Duration(seconds: 3),
+          const Duration(minutes: 3),
           (Timer timer) async {
             timer.cancel();
             print("первый бесплатный вход");

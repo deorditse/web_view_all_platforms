@@ -1,22 +1,23 @@
-import 'package:chat_gpt/ui_layout/pages/chat_gpt_page/chat_gpt_page.dart';
-import 'package:chat_gpt/ui_layout/pages/pay_page/pay_page.dart';
-import 'package:chat_gpt/ui_layout/styles/app_theme/theme_light.dart';
-import 'package:chat_gpt/ui_layout/styles/color_styles.dart';
-import 'package:chat_gpt/ui_layout/widgets_for_all_pages/my_bottom_snackbar.dart';
-import 'package:chat_gpt/ui_layout/widgets_for_all_pages/my_circular_progress_indicator.dart';
+import 'package:web_view_all_platforms/ui_layout/pages/chat_gpt_page/chat_gpt_page.dart';
+import 'package:web_view_all_platforms/ui_layout/pages/pay_page/pay_page.dart';
+import 'package:web_view_all_platforms/ui_layout/styles/app_theme/theme_light.dart';
+import 'package:web_view_all_platforms/ui_layout/styles/color_styles.dart';
+import 'package:web_view_all_platforms/ui_layout/widgets_for_all_pages/my_bottom_snackbar.dart';
+import 'package:web_view_all_platforms/ui_layout/widgets_for_all_pages/my_circular_progress_indicator.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:url_launcher/url_launcher.dart';
-
 import 'business_layout/blocs/pay_bloc/pay_bloc.dart';
 
 /// как веб сервер flutter run -d web-server
-// flutter build web --web-renderer canvaskit --release
-//flutter run -d chrome --web-renderer html --profile
-void main() {
+// flutter build web --web-renderer canvaskit
+
+Future<void> main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+
   runApp(const MyApp());
 }
 
@@ -35,9 +36,9 @@ class MyApp extends StatelessWidget {
           actions: const [
             Center(
                 child: Text(
-              "v.1.1.2  ",
-              textAlign: TextAlign.center,
-            ))
+                  "v.1.1.2  ",
+                  textAlign: TextAlign.center,
+                ))
           ],
           leading: GestureDetector(
             onTap: () async {
@@ -59,18 +60,18 @@ class MyApp extends StatelessWidget {
                   Icon(Icons.web),
                   Center(
                       child: Text(
-                    "На сайт",
-                    textAlign: TextAlign.center,
-                  )),
+                        "На сайт",
+                        textAlign: TextAlign.center,
+                      )),
                 ],
               ),
             ),
           ),
           title: const Center(
               child: Text(
-            "Chat GPT",
-            textAlign: TextAlign.center,
-          )),
+                "Chat GPT",
+                textAlign: TextAlign.center,
+              )),
         ),
         body: _RootWidget(),
       ),

@@ -1,4 +1,4 @@
-import 'package:chat_gpt/ui_layout/styles/color_styles.dart';
+import 'package:web_view_all_platforms/ui_layout/styles/color_styles.dart';
 import 'package:flutter/material.dart';
 
 class MyCircularProgressIndicator extends StatelessWidget {

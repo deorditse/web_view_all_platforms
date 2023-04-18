@@ -1,4 +1,4 @@
-import 'package:chat_gpt/ui_layout/utils/app_platform.dart';
+import 'package:web_view_all_platforms/ui_layout/utils/app_platform.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
